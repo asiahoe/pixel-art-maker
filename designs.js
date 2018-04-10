@@ -36,7 +36,7 @@ $('#sizePicker').submit(function makeGrid (event, height, width) {
       // Append n cells to the last row m times.
     }
   }
-})
+});
 
 $(table).on('click', 'td', function paintGrid () {
 // When the table is clicked on, run the paintGrid function on the target cell.
